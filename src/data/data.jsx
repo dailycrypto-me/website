@@ -198,7 +198,7 @@ export const FaqData = [
   },
   {
     ques: "Is Daily EVM compatible",
-    ans: "Yes! Daily is fully EVM compatible allowing for the creation of tokens, NFTs, and more.",
+    ans: "Yes! Daily's DVM is fully EVM compatible allowing for the creation of tokens, NFTs, and more.",
   },
   {
     ques: "How many transactions can Daily handle?",
