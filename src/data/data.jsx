@@ -122,68 +122,73 @@ export const FeaturesData = [
 
 export const RoadmapData = [
   {
-    name: "Nov 2020 - Jan 2023",
+    name: " Completed Nov 2020 - Jan 2025",
     description: "Initial Development of our Quantum proof resilient network",
   },
   {
-    name: "Dec 2022 – Jan 2023",
+    name: "Completed Dec 2023 – August 2025",
     description:
       "DEX development",
   },
   {
-    name: "Jan 2023 - Feb 2023",
+    name: " Completed Jan 2023 - Feb 2023",
     description:
       "Blockchain explorer development",
   },
   {
-    name: "Jan 2023 - Feb 2023",
+    name: "Completed Jan 2023 - October 2025",
     description:
-      "Development of multi-sig wallet",
+      "Development of Browser wallet",
   },
   {
-    name: "March 2023",
+    name: "Initiated Nov 2025",
     description:
       "Soft Launch Daily Network",
   },
   {
-    name: "March 2023 - May 2023",
+    name: "March 2023 - November 2026",
     description:
       "Testing of network",
   },
   {
-    name: "March 2023 and May 2023",
+    name: " Estimated December 2025 - May 2026",
     description:
       "Daily Crypto ICO",
   },
   {
-    name: "June 2023 - Aug 2023",
+    name: "Estimated June 2025 - July 2026",
     description:
       "Development of mobile wallets",
   },
   {
-    name: "Aug 2023 - Oct 2023",
+    name: " Estimated Aug 2026 - Oct 2028",
     description:
       "Testing for banking layers integration to bank network",
   },
   {
-    name: "Nov 2023 - Jan 2024",
+    name: " Estimated Nov 2028 - Jan 2030",
     description:
       "Re-develop and redesign wallets",
   },
   {
-    name: "Feb 2024 - Oct 2024",
+    name: " Estimated Feb 2027 - Oct 2032",
     description:
       "Re-structure of complete code to V2 for complete Quantum Architecture resilient Network",
   },
   {
-    name: "Nov 2024 - April 2025",
+    name: " Estimated Nov 2026 - April 2028",
     description:
       "Investing into future product development for energy efficient algorithms / Cryptographic signatures and stress testing of network",
   },
   {
-    name: "May 2025 Oct 2025",
+    name: " Estimated May 2028 Oct 2033",
     description:
       "Worldwide integration for complete Banking transformation for easy transfer between our Network to any FIAT account in the world with Stress testing",
+  },
+  {
+    name: " Estimated September 2025 -  November 2025 ",
+    description:
+      " Launch of Testnet Faucet ",
   },
 ];
 
