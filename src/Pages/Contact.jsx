@@ -89,13 +89,13 @@ const Contact = () => {
                   <span>
                     <Map />
                   </span>{" "}
-                  Berlin, Germany
+                  Toronto, Canada
                 </p>
                 <p className="flex items-center gap-3">
                   <span>
                     <Phone />
                   </span>{" "}
-                  +123456789
+                  +1-34X-XXX-XXXX
                 </p>
                 <p className="flex items-center gap-3">
                   <span>
