@@ -46,6 +46,7 @@ const Footer = () => {
             {ServiceLinks.map((link, index) => (
               <li key={index}>
                 <a
+                  target="_blank"
                   href={link.url}
                   className="transition-colors duration-200 hover:text-app-100"
                 >

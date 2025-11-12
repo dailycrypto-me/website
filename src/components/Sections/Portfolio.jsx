@@ -4,6 +4,7 @@ import Container from "../Layout/Container";
 import AppMockup from "../../assets/images/nft2.png";
 import GradientButton from "../ui/GradientButton";
 import Modal from "../Modal/Modal";
+import { useNavigate } from 'react-router-dom';
 
 const Portfolio = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -11,6 +12,8 @@ const Portfolio = () => {
   const handleModal = () => {
     setModalOpen((prev) => !prev);
   };
+
+  const navigate = useNavigate();
 
   return (
     <Container>
@@ -25,7 +28,7 @@ const Portfolio = () => {
           <p className="max-w-xl text-center md:text-left">
           DAILY isn't just for digital money. Anything you own can be represented, traded and put to use as non-fungible tokens (NFTs). You can tokenise your images / artwork and get royalties automatically every time it's re-sold. Or use a token for something you own to take out a loan. The possibilities are growing all the time and are endless.
           </p>
-          <GradientButton className="max-w-44" onClick={() => window.location.href = "/about"}>
+          <GradientButton className="max-w-44" onClick={() => navigate('/about')}>
             Get Started
           </GradientButton>
         </div>

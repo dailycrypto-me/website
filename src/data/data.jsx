@@ -40,38 +40,38 @@ export const NavLinks = [
 export const SocialLinks = [
   {
     icon: <Facebook/>,
-    url: "/",
+    url: "https://www.facebook.com/DailyCrypto24x7",
   },
   {
     icon: <Instagram/>,
-    url: "/",
+    url: "https://t.me/DailyCrypto24x7",
   },
   {
     icon: <Twitter/>,
-    url: "/",
+    url: "https://x.com/dailycrypto24x7",
   },
   {
     icon: <Linkedin/>,
-    url: "/",
+    url: "https://discord.gg/DAILY9098",
   },
 ];
 
 export const ServiceLinks = [
   {
     title: "Webwallet",
-    url: "/",
+    url: "https://wallet.dailycrypto.net/",
   },
   {
     title: "DEX",
-    url: "/",
+    url: "https://dex.dailycrypto.net/",
   },
   {
     title: "Mainnet Explorer",
-    url: "/",
+    url: "https://explorer.mainnet.dailycrypto.net/",
   },
   {
     title: "Testnet Explorer",
-    url: "/",
+    url: "https://explorer.testnet.dailycrypto.net/",
   },
 ];
 

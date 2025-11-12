@@ -101,7 +101,7 @@ const Contact = () => {
                   <span>
                     <Mail />
                   </span>{" "}
-                  contact@dailycrypto.com
+                  contact@dailycrypto.net
                 </p>
               </div>
             </div>

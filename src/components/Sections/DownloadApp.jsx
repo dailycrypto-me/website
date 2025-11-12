@@ -52,7 +52,7 @@ const DownloadApp = () => {
               <p>App Store</p>
             </Button>
             */}
-            <Button href="/" className="min-w-[170px]">
+            <Button href="https://wallet.dailycrypto.net/" className="min-w-[170px]" target="_blank">
               {/*<img src={Logo} width={24} height={24} alt="" />{" "}*/}
               <p>Go to Webwallet</p>
             </Button>

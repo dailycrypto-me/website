@@ -11,6 +11,8 @@ import Ethereum from "../../assets/images/ethereum.png";
 
 import { CircleArrowRight } from "lucide-react";
 
+import { useNavigate } from 'react-router-dom';
+
 const Hero = () => {
   const [modalOpen, setModalOpen] = useState(false);
   // const open = () => {
@@ -24,6 +26,8 @@ const Hero = () => {
   const handleModal = () => {
     setModalOpen((prev) => !prev);
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="flex min-h-screen w-screen flex-col">
@@ -69,7 +73,7 @@ const Hero = () => {
 
             <div className="flex w-fit flex-wrap items-center justify-center gap-6">
               {/*<GradientButton className="min-w-[13rem]" onClick={handleModal}>*/}
-              <GradientButton className="min-w-[13rem]" onClick={() => window.location.href = "/about"}>
+              <GradientButton className="min-w-[13rem]" onClick={() => navigate('/about')}>
                 Get Started
               </GradientButton>
               {/*
