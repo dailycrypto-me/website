@@ -188,7 +188,7 @@ export const RoadmapData = [
   {
     name: " Estimated September 2025 -  November 2025 ",
     description:
-      " Launch of Testnet Faucet ",
+      " Launch of Testnet Faucet. ",
   },
 ];
 
